@@ -13,7 +13,7 @@ The discovered SysEx messages are as follows:
 * LightOn: 44 7E 7E 7F 02 00 nn 01
   * This message turns on the light identified by the note number nn.
   * Up to four lights can be turned on at any given time.
-* LightOff: 44 7E 7E 7F 02 00 nn 01
+* LightOff: 44 7E 7E 7F 02 00 nn 00
   * This message turns off the light identified by the note number nn.
 
 # The Demo
